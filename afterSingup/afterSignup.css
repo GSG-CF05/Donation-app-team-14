@@ -70,7 +70,6 @@ main section:nth-child(1) p {
 main section:nth-child(2) {
   margin-top: 40px;
   position: relative;
-  /* margin-right: 50px; */
 }
 
 #search {
@@ -104,4 +103,33 @@ main section:nth-child(2) {
   border-left: 1px solid rgba(224, 224, 224, 0.5);
   padding-left: 15px;
   margin-left: 10px;
+}
+
+main section:nth-child(3) {
+  width: 96%;
+  height: 168px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-image: url(./asstes/unsplash_fZRpn21atJs.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 108px;
+}
+
+main section:nth-child(3) h2 {
+  width: 60%;
+  padding-bottom: 20px;
+}
+main section:nth-child(3) span {
+  color: #3eb489;
+}
+
+main section:nth-child(3) a {
+  width: 130px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #3eb489;
+  color: #fff;
 }
