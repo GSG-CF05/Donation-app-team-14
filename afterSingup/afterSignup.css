@@ -5,8 +5,9 @@
 
 body {
   background-color: #fbfbfb;
-  padding: 10px;
+  padding: 15px;
   padding-top: 25px;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -31,7 +32,37 @@ header {
   font-size: 25px;
 }
 
-.hImg{
-    width: 45px;
-    height: 45px;
+.hImg {
+  width: 45px;
+  height: 45px;
+}
+
+#hello {
+  display: flex;
+  align-items: center;
+  color: #3eb489;
+}
+#hello h1 {
+  font-size: 30px;
+}
+
+#hello img {
+  padding-left: 8px;
+  padding-top: 14px;
+}
+
+#hello h1,
+main section:nth-child(1) p {
+  margin: 0;
+}
+
+main section:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main section:nth-child(1) p {
+  font-size: 20px;
+  font-weight: bold;
 }

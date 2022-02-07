@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./afterSignup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./afterSignup.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -26,9 +33,11 @@
 
     <main>
       <section>
-        <h1 class="hello">Hello, Lisa</h1>
-
-        <p>What do you wanna donate today?</p>
+        <div id="hello">
+          <h1>Hello, Lisa</h1>
+          <img src="./asstes/👋🏻.svg" alt="hello" />
+        </div>
+        <p class="what">What do you wanna donate today?</p>
       </section>
       <section>
         <input
@@ -37,7 +46,7 @@
           id="Search"
           placeholder="Search here"
         />
-        <i class="fas fa-search"></i>
+        <i class="fal fa-search"></i>
         <i class="fas fa-microphone"></i>
         <i class="fas fa-sliders-h"></i>
       </section>
