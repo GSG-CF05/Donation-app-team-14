@@ -22,14 +22,14 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.fa-bars {
+.fa {
   color: #282e35;
   font-size: 25px;
+  font-weight: 100;
 }
+
 .fa-bell {
   padding-right: 15px;
-  color: #282e35;
-  font-size: 25px;
 }
 
 .hImg {
@@ -65,4 +65,43 @@ main section:nth-child(1) {
 main section:nth-child(1) p {
   font-size: 20px;
   font-weight: bold;
+}
+
+main section:nth-child(2) {
+  margin-top: 40px;
+  position: relative;
+  /* margin-right: 50px; */
+}
+
+#search {
+  width: 78%;
+  height: 60px;
+  border-radius: 15px;
+  border: 1px solid rgba(196, 196, 196, 0.3);
+  margin-right: 5px;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+#searchOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 85%;
+}
+
+#search,
+#searchOptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fa-sliders-h {
+  color: #3eb489;
+  border-left: 1px solid rgba(224, 224, 224, 0.5);
+  padding-left: 15px;
+  margin-left: 10px;
 }
