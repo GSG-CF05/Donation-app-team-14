@@ -1,65 +1,64 @@
-
-.page{
-	border-width: 375px;
-	height: 812px;
-	background-color: #FBFBFB;
-	border-radius: 30px;
-}
 .header {
 	display: flex;
-	justify-content: space-between;}				
+	justify-content: space-between;
+	height: 5rem;
+	align-items: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
 .arrow {
-	color: #292D32;
-	width: 24px;
-	height: 24px;
-	margin-left: 40px;
-	margin-top: 74px;
+	color: #292d32;
 }
-.heartList{
-	margin-top: 50px; ;
+
+.heartList {
+	width: 2rem;
+	display: flex;
+	justify-content: space-between;
 }
-.heart {
-	color: #3EB489;
-	width: 24px;
-	height: 24px;
-	margin-left: 266;
-}
-.list {
-	color:#232323;
-	width: 24px;
-	height: 24px;
-	margin-left: 53px;
-	margin-right: 16px;
-}
-.title{
-	margin-top: 20px;
-    margin-left: 16px;
-	color: #000000;
-	Width:305px;
-    Height:50px;
+.title {
 	font-weight: 500;
-    font-size: 16px;
+	font-size: 16px;
 	line-height: 24px;
-	@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css%22);
-	font-family: 'Metropolis',sans-serif;
+	font-family: 'Metropolis', sans-serif;
 	font-style: normal;
+	margin-left: 16px;
 }
-.imageOne{
-
-	margin-left: 17px;
-	margin-top: 20px;
+.title p {
+	width: 70%;
+}
+.imageAndName {
+	display: flex;
+	align-items: center;
+	width: 15rem;
+	height: 10rem;
+	justify-content: space-between;
+}
+.imageOne {
 	width: 50px;
-    height: 50px;
+	height: 50px;
 }
-.para{
+.name {
+	display: flex;
+	flex-direction: column;
+	height: 2rem;
+	justify-content: space-around;
+}
+.imageTwo {
+	width: 343px;
+	height: 178px;
+	margin-left: 16px;
+	border-radius: 10px;
+}
 
+.para {
 	color: #696969;
 	width: 343px;
-    height: 344px;
-    margin-left: 16px;
-	font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-	@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css%22);
-	font-family: 'Metropolis',sans-serif;
+	height: 344px;
+	margin-left: 16px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: 'Metropolis', sans-serif;
 }
