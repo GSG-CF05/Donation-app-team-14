@@ -1,0 +1,135 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: #fbfbfb;
+  padding: 15px;
+  padding-top: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#userSetting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa {
+  color: #282e35;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.fa-bell {
+  padding-right: 15px;
+}
+
+.hImg {
+  width: 45px;
+  height: 45px;
+}
+
+#hello {
+  display: flex;
+  align-items: center;
+  color: #3eb489;
+}
+#hello h1 {
+  font-size: 30px;
+}
+
+#hello img {
+  padding-left: 8px;
+  padding-top: 14px;
+}
+
+#hello h1,
+main section:nth-child(1) p {
+  margin: 0;
+}
+
+main section:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main section:nth-child(1) p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main section:nth-child(2) {
+  margin-top: 40px;
+  position: relative;
+}
+
+#search {
+  width: 78%;
+  height: 60px;
+  border-radius: 15px;
+  border: 1px solid rgba(196, 196, 196, 0.3);
+  margin-right: 5px;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+#searchOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 85%;
+}
+
+#search,
+#searchOptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fa-sliders-h {
+  color: #3eb489;
+  border-left: 1px solid rgba(224, 224, 224, 0.5);
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+main section:nth-child(3) {
+  width: 96%;
+  height: 168px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-image: url(./asstes/unsplash_fZRpn21atJs.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 108px;
+}
+
+main section:nth-child(3) h2 {
+  width: 60%;
+  padding-bottom: 20px;
+}
+main section:nth-child(3) span {
+  color: #3eb489;
+}
+
+main section:nth-child(3) a {
+  width: 130px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #3eb489;
+  color: #fff;
+}
