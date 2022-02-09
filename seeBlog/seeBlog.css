@@ -19,7 +19,7 @@
 	justify-content: space-between;
 }
 .title {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	font-family: 'Metropolis', sans-serif;
@@ -72,7 +72,13 @@
 	font-family: 'Metropolis', sans-serif;
 }
 @media  screen and (min-width:1023px) {
+	body{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 .main{
+	
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -87,6 +93,10 @@
 	
 }
 @media  screen and (min-width:765px) {
+	body{
+		display: flex;
+		align-items: center;
+		flex-direction: column;}
 	.main{
 		display: flex;
 		align-items: center;
@@ -95,6 +105,6 @@
 	}
 	.header{
 		width: 70%;
-      margin-left: 5rem;
+      
 	}		
 }
