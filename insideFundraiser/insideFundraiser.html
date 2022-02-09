@@ -5,7 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./insideFundraiser.css" />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>FundRaiser</title>
   </head>
-  <body></body>
+  <body>
+    <header class="box">
+      <button class="btnLeft">
+        <img class="imgBtnLeft" src="images/previous.png" alt="pre" />
+      </button>
+
+      <div class="buttonsRight">
+        <button><img class="imgRight" src="images/fav.png" alt="pre" /></button>
+        <button>
+          <img class="imgBtnLeft" src="images/more.png" alt="pre" />
+        </button>
+      </div>
+    </header>
+    <!---------------------------------------------------------------------------------------------------->
+
+    <main>
+      <!--Start Section 1 -->
+      <section class="felx1">
+        <img id="photo" src="images/mainp.png" alt="Kids" />
+      </section>
+      <!--End the Section 1-->
+
+      <!--Start the Section 2-->
+      <section>
+        <p class="help">Help them for better education</p>
+
+        <div class="continarImageDonted">
+          <img src="images/personone.png" alt="pers" />
+          <img class="merg" src="images/perosonThree.png" alt="pers" />
+          <img class="merg" src="images/personFour.png" alt="pers" />
+          <img class="merg" src="images/personTwo.png" alt="pers" />
+          <p class="numOfDonted">+120 donted</p>
+        </div>
+        <div class="sliderContainer">
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="50"
+            class="slider"
+            id="myRange"
+          />
+        </div>
+      </section>
+      <!--end the section 2-->
+
+      <!--start the section 3 -->
+
+      <section class="sectionThree">
+        <h3 class="goals">Goals: $2,000</h3>
+        <p class="raise">Raised: $1900 (15%)</p>
+      </section>
+      <!--End  section 3 -->
+
+      <hr />
+      <!--start the section 4 -->
+      <section>
+        <h3 class="oraganiser">Oraganiser</h3>
+        <div class="oraganiser">
+          <figure class="avatarOraganiser">
+            <img src="images/org.png" alt="Oraganiser" />
+          </figure>
+
+          <p class="nameOraganiser">
+            Monika islam
+            <br />
+            <span class="cityOraganiser">Dhaka Bangladsh</span>
+          </p>
+        </div>
+      </section>
+      <!-- end section 4-->
+
+      <!-- start section 5-->
+      <section>
+        <div class="descriptionComment">
+          <p class="pForDescription">Description</p>
+
+          <p>Comments(58)</p>
+        </div>
+
+        <p class="contentDescription">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to......<a
+            class="linkReadMore"
+            href="../seeBlog/seeBlog.html"
+            >Read more</a
+          >
+        </p>
+        <div class="btnContinar">
+          <button class="btnDonateNow">Donate Now</button>
+        </div>
+      </section>
+
+      <!-- end section 5 -->
+    </main>
+  </body>
 </html>

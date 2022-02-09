@@ -1,0 +1,311 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+button {
+  border: none;
+  background-color: white;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  margin-top: 8%;
+}
+
+.btnLeft {
+  margin-left: 4%;
+}
+
+.buttonsRight {
+  width: 12%;
+  margin-right: 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.felx1 {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+#photo {
+  width: 100%;
+}
+p.help {
+  font-size: 24px;
+  font-weight: bolder;
+  padding-left: 3%;
+  margin-top: 4%;
+  font-family: "Lato", sans-serif;
+}
+div.continarImageDonted {
+  display: flex;
+  padding-left: 3%;
+  margin-top: 6%;
+}
+
+img.merg {
+  margin-left: -1.2%;
+}
+p.numOfDonted {
+  color: #696969;
+  padding-left: 1%;
+  padding-top: 1%;
+  font-family: "Lato", sans-serif;
+}
+
+.sliderContainer {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #3eb489;
+  opacity: 0.8;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 3.5px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+.sectionThree {
+  display: flex;
+  padding-left: 3%;
+  justify-content: space-between;
+  margin-top: 3%;
+  padding-right: 3%;
+  margin-bottom: 2%;
+  font-family: "Lato", sans-serif;
+}
+
+p.raise {
+  color: #3eb489;
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+}
+
+h3.oraganiser {
+  padding: 3%;
+  font-family: "Lato", sans-serif;
+}
+div.oraganiser {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  margin-left: 10px;
+}
+figure.avatarOraganiser {
+  padding-top: 10px;
+}
+p.nameOraganiser {
+  padding-left: 3%;
+  color: #263238;
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+span.cityOraganiser {
+  color: #696969ee;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+div.descriptionComment {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-top: 3%;
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+}
+
+p.pForDescription {
+  color: #3eb489;
+}
+
+p.contentDescription {
+  margin-top: 20px;
+  padding-left: 3%;
+  font-size: 18px;
+  line-height: 25px;
+  color: #696969;
+  font-family: "Lato", sans-serif;
+}
+a.linkReadMore {
+  color: #3eb489;
+  text-decoration: none;
+}
+button.btnDonateNow {
+  background-color: #3eb489;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    padding: 3%;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .imgBtnLeft {
+    width: 18px;
+  }
+  .imgRight {
+    width: 30px;
+  }
+  .btnLeft {
+    margin-left: 1%;
+  }
+
+  .buttonsRight {
+    width: 20%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-around;
+  }
+  section.felx1 {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  #photo {
+    width: 70%;
+    height: 20%;
+  }
+  p.help {
+    font-size: 70px;
+    font-weight: bolder;
+    padding-left: 17%;
+    margin-top: 4%;
+  }
+
+  div.continarImageDonted {
+    display: flex;
+    padding-left: 17%;
+    margin-top: 6%;
+  }
+  img.merg {
+    margin-left: -1.2%;
+    width: 60px;
+  }
+  p.numOfDonted {
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: large;
+  }
+
+  .sliderContainer {
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+
+  .slider {
+    width: 100%;
+    height: 10px;
+  }
+
+  .sectionThree {
+    display: flex;
+    padding-left: 17%;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding-right: 17%;
+    margin-bottom: 2%;
+    font-size: 26px;
+  }
+  p.raise {
+    font-size: 26px;
+  }
+  h3.oraganiser {
+    margin-top: 3%;
+    padding: 1px;
+    padding-left: 17%;
+    font-size: 26px;
+  }
+  div.oraganiser {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 2%;
+  }
+  figure.avatarOraganiser {
+    padding-top: 10px;
+    padding-left: 32%;
+  }
+  p.nameOraganiser {
+    padding-left: 2%;
+    font-size: 17px;
+  }
+  span.cityOraganiser {
+    font-size: 14px;
+  }
+
+  div.descriptionComment {
+    padding-right: 15%;
+    margin-top: 3%;
+    font-size: 26px;
+  }
+
+  p.pForDescription {
+    padding-left: 17%;
+    font-size: 26px;
+  }
+
+  p.contentDescription {
+    margin-left: 17%;
+    margin-top: 6%;
+    padding-left: 1%;
+    font-size: 18px;
+    height: 5%;
+    width: 50%;
+    line-height: 30px;
+    font-size: 26px;
+    word-wrap: break-word;
+  }
+  a.linkReadMore {
+    text-decoration: none;
+  }
+  button.btnDonateNow {
+    width: 45%;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 50px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  button.btnDonateNow {
+    margin-bottom: 5%;
+  }
+}
