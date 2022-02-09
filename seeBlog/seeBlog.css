@@ -25,26 +25,32 @@
 	font-family: 'Metropolis', sans-serif;
 	font-style: normal;
 	margin-left: 16px;
+
 }
 .title p {
-	width: 70%;
+	width: 305px;
+	height: 50px;
 }
 .imageAndName {
 	display: flex;
 	align-items: center;
-	width: 15rem;
+	width: 13rem;
 	height: 10rem;
 	justify-content: space-between;
 }
 .imageOne {
 	width: 50px;
 	height: 50px;
+	margin-left: 17px;
 }
 .name {
 	display: flex;
 	flex-direction: column;
 	height: 2rem;
 	justify-content: space-around;
+	font-family: 'Metropolis', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
 }
 .imageTwo {
 	width: 343px;
@@ -64,4 +70,41 @@
 	font-size: 14px;
 	line-height: 21px;
 	font-family: 'Metropolis', sans-serif;
+}
+@media  screen and (min-width:1023px) {
+	body{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+.main{
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+.header{
+	width: 70%;
+	margin-left: 15rem;
+}	
+	
+
+	
+}
+@media  screen and (min-width:765px) {
+	body{
+		display: flex;
+		align-items: center;
+		flex-direction: column;}
+	.main{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	
+	}
+	.header{
+		width: 70%;
+      
+	}		
 }
